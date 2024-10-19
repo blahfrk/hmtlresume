@@ -4,17 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Basics</title>
+    <link rel="stylesheet" href="(4) styles.css">
+
+    <style>
+
+        a {
+            background-color: rgb(165, 227, 165) !important;
+        }
+
+        #insta {
+            color: orange;
+            text-decoration: none;
+        }
+
+        #header {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-style: italic;
+        }
+
+    </style>
+
 </head>
 <body>
    <header>
+        <h1 id="header">CSS Basics</h1>
    </header>
 
    <main>
-        <a href="https://fb.com">This a link to Facebook</a>
+        <a class="fbButton" href="https://fb.com">This link is modified with external css and links to Facebook</a>
         <br>
-        <a href="https://www.instagram.com/">This a link to Instagram</a>
+        <a id="insta" href="https://www.instagram.com/">This link is modified with internal css and links to Instagram</a>
         <br>
-        <a style="color: red;" href="https://youtube.com">This a link is color red and links to Youtube</a>
+        <a style="color: red;" href="https://youtube.com">This link is modified with inline css and links to Youtube</a>
         <br>
    </main>
 

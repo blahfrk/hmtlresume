@@ -1,0 +1,12 @@
+.fbButton {
+    color: white;
+    background-color: #007BFF;
+    font-style: italic;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
